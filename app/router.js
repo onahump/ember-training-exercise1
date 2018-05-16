@@ -11,7 +11,7 @@ Router.map(function() {
     this.route('section1');
     this.route('section2');
     this.route('section3');
-    this.route('content');
+    this.route('content', { path: 'content/:username' });
   });
   this.route('page2');
   this.route('page3');
