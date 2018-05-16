@@ -1,2 +1,8 @@
 <h1> Welcome to my first page  </h1>
 <p> Hi, this is a test project to understand the basics of ember</p>
+
+<h3> Usernames</h3>
+
+{{#each model as |username|}}
+<br> Username <b> {{username}} </b>
+{{/each}}
