@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('page1', function() {
     this.route('section1');
+    this.route('section2');
   });
   this.route('page2');
   this.route('page3');
